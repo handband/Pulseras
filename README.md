@@ -16,9 +16,8 @@ Contiene un script que permite crear pulseras de tipo laser con data variable co
 
  ### Generacion individual (/certificados/Generación individual)
 Permite la generación de certificados de con uno o más valores dada una entrada por stdin.
-```
 
-Variables importante:
+> Variables importante:
 * x,y : Lugar donde el texto quedará dispuesto en el certificado
 * box_width, box_height : Ancho y alto de la caja contenedora del texto
 * letter_size : Define el tamaño de la letra que estará dentro del texto, limitado por el box_width y box_height, dado que está limitado por la propiedad  ":overflow => :shrink_to_fit", si dicha propiedad es cambiada a ":overflow => :expand" el texto se saldrá de la caja contenedora
@@ -27,5 +26,5 @@ Ejemplo de uso en generación de certificados individuales
 ```
 $ ruby generacion_individual.rb "base.pdf" "texto_variable"
 ```
-```
+
 
