@@ -6,7 +6,8 @@ Variable útiles:
 * pdf.stroke_bounds : Si está dispuesto dentro de una caja contenedora, permite dibujar los bordes de la caja, para entender hasta donde se expandirá la variable a agregar dentro de la caja.
 
 ## Pulseras laser (/pulseras-laser)
-Contiene un script que permite crear pulseras de tipo laser con data variable con las siguientes variables importantes
+Contiene un script que permite crear pulseras de tipo laser con data variable.
+> Variables importantes: 
  * total : Define la cantidad de pulseras que se generarán
  * start_from : Define el número desde el cual parte el código de barras y texto bajo el código
  * counter : Controla la cantidad de pulseras por página que se imprimirán
@@ -17,7 +18,7 @@ Contiene un script que permite crear pulseras de tipo laser con data variable co
  ### Generacion individual (/certificados/Generación individual)
 Permite la generación de certificados de con uno o más valores dada una entrada por stdin.
 
-> Variables importante:
+> Variables importantes:
 * x,y : Lugar donde el texto quedará dispuesto en el certificado
 * box_width, box_height : Ancho y alto de la caja contenedora del texto
 * letter_size : Define el tamaño de la letra que estará dentro del texto, limitado por el box_width y box_height, dado que está limitado por la propiedad  ":overflow => :shrink_to_fit", si dicha propiedad es cambiada a ":overflow => :expand" el texto se saldrá de la caja contenedora
