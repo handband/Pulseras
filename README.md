@@ -28,7 +28,7 @@ Permite la generación de certificados de con uno o más valores dada una entrad
 $ ruby generacion_individual.rb "base.pdf" "texto_variable"
 ```
 
-### Generacion dada una lista (/certificados/Generación dada una lista)
+### Generacion dada una lista (/certificados/Generación lista)
 Permite la generación de certificados de con uno o más valores dada una lista de datos en xls
 
 > Variables importantes:
