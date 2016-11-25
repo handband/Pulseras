@@ -13,9 +13,9 @@ Contiene un script que permite crear pulseras de tipo laser con data variable.
  * counter : Controla la cantidad de pulseras por página que se imprimirán
  * sec : Controla que el número de pulseras generadas no supere al total (creo que no es necesaria)
 
- ## Certificados (/certificados)
+## Certificados (/certificados)
 
- ### Generacion individual (/certificados/Generación individual)
+### Generacion individual (/certificados/Generación individual)
 Permite la generación de certificados de con uno o más valores dada una entrada por stdin.
 
 > Variables importantes:
