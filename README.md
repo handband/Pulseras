@@ -1,7 +1,7 @@
 # Pulseras
 Recopilación y ejemplos para creación de pulseras, certificados, credenciales, pvc con data variable
 
-Variable útiles:
+Variables útiles:
 * pdf.fill_color "FFFFFF" : Permite cambiar el color de la fuente del pdf adjunto  
 * pdf.stroke_bounds : Si está dispuesto dentro de una caja contenedora, permite dibujar los bordes de la caja, para entender hasta donde se expandirá la variable a agregar dentro de la caja.
 
@@ -27,5 +27,13 @@ Permite la generación de certificados de con uno o más valores dada una entrad
 ```
 $ ruby generacion_individual.rb "base.pdf" "texto_variable"
 ```
+### Generacion dada una lista (/certificados/Generación dada una lista)
+Permite la generación de certificados de con uno o más valores dada una lista de datos en xls
+
+> Variables importantes:
+* x,y : Lugar donde el texto quedará dispuesto en el certificado
+* box_width, box_height : Ancho y alto de la caja contenedora del texto
+* letter_size : Define el tamaño de la letra que estará dentro del texto, limitado por el box_width y box_height, dado que está limitado por la propiedad  ":overflow => :shrink_to_fit", si dicha propiedad es cambiada a ":overflow => :expand" el texto se saldrá de la caja contenedora
+
 
 
