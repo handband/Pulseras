@@ -36,5 +36,10 @@ Permite la generación de certificados de con uno o más valores dada una lista 
 * box_width, box_height : Ancho y alto de la caja contenedora del texto
 * letter_size : Define el tamaño de la letra que estará dentro del texto, limitado por el box_width y box_height, dado que está limitado por la propiedad  ":overflow => :shrink_to_fit", si dicha propiedad es cambiada a ":overflow => :expand" el texto se saldrá de la caja contenedora
 
+## Pulseras Tyveck (/pulseras-tyveck)
+
+### Pulseras Tyveck desde XLS (/pulseras-tyveck/XLS)
+Permite la generación de pulseras tyveck obteniendo los valores desde un xls, tener en cuenta que si se ocupa números es necesario hacer la transformación de string a int
+
 
 
